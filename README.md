@@ -21,7 +21,7 @@ O projeto está organizado da seguinte maneira:
 
 ## Acesso
 
-Para poder acessar o projeto, somente basta acessar o link [link](https://optimustech-weld.vercel.app/).
+Para poder acessar o projeto, somente basta acessar o [link](https://optimustech-weld.vercel.app/).
 
 ## Contato
 Este projeto é um trabalho em andamento e faz parte da minha formação como desenvolvedor. Se você tiver sugestões ou quiser entrar em contato, pode me encontrar em:
