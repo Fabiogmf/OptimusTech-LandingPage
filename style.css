@@ -149,7 +149,7 @@ body {
 .vagas_abertas-designacao {
     border: 1px solid var(--borda-vagas);
     border-radius: 16px;
-    padding: 24px 10px 24px 28px;
+    padding: 1.5em 0.625em 1.5em;
     margin-bottom: 1em;
 }
 
@@ -262,4 +262,39 @@ body {
     font-size: 16px;
     color: var(--cinza);
     margin-top: 3em;
+}
+
+@media screen and (max-width: 765px)  {
+
+    .navbar__titulo {
+        margin-left: 0;
+    }
+
+
+    .navbar__pages-link {
+        display: none;
+    }
+
+    .navbar__credenciais {
+        flex-direction: column;
+    }
+
+    .resultados {
+        flex-direction: column;
+    }
+
+    .resultados_numeros-numero, 
+    .resultados_numeros-titulo, 
+    .resultados_numeros-descricao {
+        text-align: center;
+    }
+
+    .vagas_abertas-designacao {
+        box-sizing: border-box;
+    }
+
+    .subscricao_email {
+        padding: 0.6em 3em 0.6em 1em;
+    }
+
 }
